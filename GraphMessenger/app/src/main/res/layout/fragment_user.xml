@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="project.datos.tec.graphmessanger.gui.messaging.UserFragment"
+    android:background="@drawable/vintage2"
+    android:id="@+id/fragmento">
+
+    <!-- Imagen de perfil -->
+
+    <!-- Nombre de Usuario -->
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="150dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:fontFamily="casual" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_image"
+        android:layout_width="185dp"
+        android:layout_height="192dp"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"
+        app:border_color="@android:color/white"
+        app:border_width="1dp"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="125dp" />
+
+</FrameLayout>

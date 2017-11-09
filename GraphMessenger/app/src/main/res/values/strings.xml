@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GraphMessanger</string>
+    <string name="Configuracion">Configuracion</string>
+    <string name="Chats">Chats</string>
+    <string name="app_id">214274875665732</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel_login">Action Canceled</string>
+    <string name="login_error">An error ocured</string>
+
+    <string name="discovery">Discovery</string>
+    <string name="logout">Logout</string>
+    <string name="user">User</string>
+</resources>
